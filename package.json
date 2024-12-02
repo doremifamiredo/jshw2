@@ -1,0 +1,19 @@
+{
+  "name": "7.2.-node",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "eslint": "eslint"
+  },
+  "author": "OlegSomov",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "beautify": "^0.0.8",
+    "eslint": "^8.57.1"
+  },
+  "devDependencies": {
+    "prettier": "^3.4.1"
+  }
+}
