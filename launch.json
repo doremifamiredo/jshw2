@@ -1,0 +1,8 @@
+{
+  "configurations": [
+    {
+      "type": "node",
+      "program": "./index.js"
+    }
+  ]
+}

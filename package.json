@@ -1,19 +1,23 @@
 {
-  "name": "7.2.-node",
+  "name": "debugjs",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "eslint": "eslint"
+    "lint": "eslint ."
   },
+  "keywords": [],
   "author": "OlegSomov",
   "license": "ISC",
   "description": "",
-  "dependencies": {
-    "beautify": "^0.0.8",
-    "eslint": "^8.57.1"
-  },
   "devDependencies": {
-    "prettier": "^3.4.1"
+    "@eslint/js": "^9.17.0",
+    "eslint": "^9.17.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "prettier": "^3.4.2"
+  },
+  "dependencies": {
+    "globals": "^15.14.0"
   }
 }
